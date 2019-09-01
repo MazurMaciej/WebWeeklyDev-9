@@ -3,9 +3,12 @@
     margin: 0;
 }
 
+html {
+    font-size: 10px;
+}
 
 body {
-    font-size: 10px;
+
     margin: 25px;
     font-family: 'Raleway', sans-serif;
 }
@@ -45,11 +48,11 @@ body {
 }
 
 span.dancingFont:nth-child(1) {
-    font-size: 3.1rem;
+    font-size: 3.3rem;
 }
 
 span.dancingFont:nth-child(2) {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     padding-bottom: 3.5rem;
 }
 
@@ -59,7 +62,7 @@ span.dancingFont:nth-child(2) {
 
 .heroFirstLine {
     font-family: 'Playfair Display', serif;
-    font-size: 3.6rem;
+    font-size: 4.8rem;
 }
 
 .heroFirstLineUnderline {
@@ -71,7 +74,7 @@ span.dancingFont:nth-child(2) {
 
 .heroSecondLine {
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     width: 60%;
     text-align: center;
 }
@@ -86,7 +89,7 @@ nav {
 
 nav p {
     font-family: DancingScript;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #838181;
     line-height: 4rem;
     padding-left: 4rem;
@@ -103,7 +106,7 @@ ul {
 nav li a {
     color: #696969;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
@@ -125,11 +128,11 @@ i.fas {
 }
 
 .aboutMe {
-    height: 60vh;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4rem;
 }
 
 div.aboutMe h2, div.works h2 {
@@ -148,7 +151,7 @@ div.aboutMe h2, div.works h2 {
 }
 
 div.aboutMe p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 2rem;
     color: #848282;
@@ -157,10 +160,97 @@ div.aboutMe p {
 }
 
 .works {
-    height: 120vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.worksBox {
+    display: flex;
+}
+
+.worksFirstColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.worksBoxFlex {
+    display: flex;
+}
+
+.worksSecondColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.works img {
+    box-sizing: border-box;
+    padding: 12.5px 12.5px 12.5px 12.5px;
+}
+
+div.nature, div.people, div.wedding, div.architecture, div.bike, div.animals {
+    position: relative;
+
+}
+
+div.nature img, div.people img, div.wedding img, div.architecture img, div.bike img, div.animals img {
+    transition: .5s;
+}
+
+div.nature img:hover, div.people img:hover, div.wedding img:hover, div.architecture img:hover, div.bike img:hover, div.animals img:hover {
+filter: blur(2px) ;
+cursor: pointer;
+transform: scale(1.025);
+}
+
+p.firstLine {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 2rem);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    border-bottom: 2px white solid;
+    padding-bottom: 2rem;
+}
+
+.firstLine, .secondLine {
+    font-size: 1.6rem;
+    color: #fff;
+    position: absolute;
+    top: calc(50% + 2rem);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.works a {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.6rem;
+    text-decoration: none;
+    background-color: #d07c7c;
+    padding: .7rem 1.5rem;
+    cursor: pointer;
+    margin-top: 7rem;
+}
+
+.testymonials {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.testymonials h2 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #848282;
+    padding-top: 10rem;
 }
 
 .video {
