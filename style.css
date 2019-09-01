@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-size: 10px;
+    margin: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('/fonts/DancingScript-Regular.otf');
+}
+
+.wrapper {
+    width: 100%;
+}
+
+
+.heroImage {
+    height: 120vh;
+    width: 100%;
+    background: url('/img/bgc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.heroImageCopy {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+span.dancingFont:nth-child(1) {
+    font-size: 3.1rem;
+}
+
+span.dancingFont:nth-child(2) {
+    font-size: 1.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.dancingFont {
+    font-family: DancingScript;
+}
+
+.heroFirstLine {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.6rem;
+}
+
+.heroFirstLineUnderline {
+    border-bottom: 3px solid white;
+    height: 2rem;
+    width: 10%;
+    margin-bottom: 2rem;
+}
+
+.heroSecondLine {
+    font-weight: 400;
+    font-size: 1.1rem;
+    width: 60%;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    border-bottom: 1px solid #ebebeb;
+}
+
+nav p {
+    font-family: DancingScript;
+    font-size: 2rem;
+    color: #838181;
+    line-height: 4rem;
+    padding-left: 4rem;
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+
+nav li a {
+    color: #696969;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 4rem;
+    padding-bottom: .3rem;
+}
+
+nav li a:hover {
+    border-bottom: #d07c7c 2px solid;
+}
+
+i.fas {
+    position: absolute;
+    bottom: 20%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3rem;
+}
+
+.aboutMe {
+    height: 60vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.aboutMe h2, div.works h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #5a5957;
+    text-transform: uppercase;
+    padding-top: 10rem;
+}
+
+.underline {
+    width: 5%;
+    height: 1.8rem;
+    border-bottom: #d07c7c 2px solid;
+    margin-bottom: 1.8rem;
+}
+
+div.aboutMe p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #848282;
+    width: 80%;
+    text-align: center;
+}
+
+.works {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    height: 100vh;
+    background-color: chocolate;
+}
+
+.followMe {
+    height: 40vh;
+    background-color: cornsilk;
+}
+
+.contactMe {
+    height: 100vh;
+    background-color: darkgoldenrod;
+
+}
+
+.footer {
+    height: 40vh;
+    background-color: darkgreen;
+
+}
