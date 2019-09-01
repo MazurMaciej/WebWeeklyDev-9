@@ -38,7 +38,7 @@ body {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 2rem;
     display: flex;
@@ -121,7 +121,7 @@ nav li a:hover {
 i.fas {
     position: absolute;
     bottom: 20%;
-    left: 50%; 
+    left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 3rem;
@@ -135,7 +135,8 @@ i.fas {
     margin-bottom: 4rem;
 }
 
-div.aboutMe h2, div.works h2 {
+div.aboutMe h2,
+div.works h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     color: #5a5957;
@@ -189,19 +190,34 @@ div.aboutMe p {
     padding: 12.5px 12.5px 12.5px 12.5px;
 }
 
-div.nature, div.people, div.wedding, div.architecture, div.bike, div.animals {
+div.nature,
+div.people,
+div.wedding,
+div.architecture,
+div.bike,
+div.animals {
     position: relative;
 
 }
 
-div.nature img, div.people img, div.wedding img, div.architecture img, div.bike img, div.animals img {
+div.nature img,
+div.people img,
+div.wedding img,
+div.architecture img,
+div.bike img,
+div.animals img {
     transition: .5s;
 }
 
-div.nature img:hover, div.people img:hover, div.wedding img:hover, div.architecture img:hover, div.bike img:hover, div.animals img:hover {
-filter: blur(2px) ;
-cursor: pointer;
-transform: scale(1.025);
+div.nature img:hover,
+div.people img:hover,
+div.wedding img:hover,
+div.architecture img:hover,
+div.bike img:hover,
+div.animals img:hover {
+    filter: blur(2px);
+    cursor: pointer;
+    transform: scale(1.025);
 }
 
 p.firstLine {
@@ -218,7 +234,8 @@ p.firstLine {
     padding-bottom: 2rem;
 }
 
-.firstLine, .secondLine {
+.firstLine,
+.secondLine {
     font-size: 1.6rem;
     color: #fff;
     position: absolute;
@@ -251,6 +268,22 @@ div.testymonials h2 {
     font-family: 'Playfair Display', serif;
     color: #848282;
     padding-top: 10rem;
+}
+
+div.testymonials p.copy {
+    font-size: 1.8rem;
+    color: #848282;
+    line-height: 2.5rem;
+    width: 60%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+div.testymonials p.author {
+    font-size: 1.3rem;
+    color: #848282;
+    padding-bottom: 2.5rem;
 }
 
 .video {
