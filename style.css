@@ -254,6 +254,12 @@ div.works a {
     padding: .7rem 1.5rem;
     cursor: pointer;
     margin-top: 7rem;
+    transition: .5s;
+}
+
+div.works a:hover{
+    background-color: #fff;
+    color: #d07c7c;
 }
 
 .testymonials {
