@@ -27,7 +27,7 @@ body {
 .heroImage {
     height: 120vh;
     width: 100%;
-    background: url('/img/bgc.jpg');
+    background: url('./img/bgc.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@ nav li a:hover {
 }
 
 div.aboutMe h2,
-div.works h2 {
+div.works h2, div.followMe h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     color: #5a5957;
@@ -287,7 +287,7 @@ div.testymonials p.author {
 }
 
 .video {
-    background: url('/img/video.jpg');
+    background: url('./img/video.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -334,7 +334,18 @@ div.testymonials p.author {
 
 .followMe {
     width: 100%;
-    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pinterest {
+    background: url('./img/pinterest.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    color: black;
 }
 
 .contactMe {
