@@ -21,6 +21,7 @@ body {
 
 .wrapper {
     width: 100%;
+    overflow: hidden;
 }
 
 
@@ -47,11 +48,11 @@ body {
     width: 80%;
 }
 
-span.dancingFont:nth-child(1) {
+.heroImageCopy span.dancingFont:nth-child(1) {
     font-size: 3.3rem;
 }
 
-span.dancingFont:nth-child(2) {
+.heroImageCopy span.dancingFont:nth-child(2) {
     font-size: 2.3rem;
     padding-bottom: 3.5rem;
 }
@@ -118,7 +119,7 @@ nav li a:hover {
     border-bottom: #d07c7c 2px solid;
 }
 
-.fas {
+.arrowHero {
     position: absolute;
     bottom: 20%;
     left: 50%;
@@ -136,7 +137,7 @@ nav li a:hover {
 }
 
 div.aboutMe h2,
-div.works h2, div.followMe h2 {
+div.works h2, div.followMe h2, div.contactMe h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     color: #5a5957;
@@ -345,22 +346,108 @@ div.testymonials p.author {
     align-items: center;
 }
 
+.socialIcons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
 .pinterest {
     background: url('./img/pinterest.jpg');
+    height: 40px;
+    width: 40px;
     background-repeat: no-repeat;
     background-position: center;
-    height: 30px;
-    width: 30px;
-    color: black;
+    margin: 4rem 5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.twitter {
+    background: url('./img/twitter.jpg');
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.instagram  {
+    background: url('./img/instagram.jpg');
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.google {
+    background: url('./img/google.jpg');
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.tumble {
+    background: url('./img/tumble.jpg');
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.pinterest:hover, .twitter:hover, .instagram:hover, .google:hover, .tumble:hover {
+    transform: scale(1.5);
 }
 
 .contactMe {
-    height: 100vh;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    background: url('./img/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .footer {
-    height: 40vh;
-    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    align-items: center;
 
+}
+
+.footerArrow {
+    transform: rotate(180deg);
+    color: #000;
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+span.author {
+    font-size: 3.3rem;
+}
+
+span.profession {
+    font-size: 2.3rem;
+    padding-bottom: 3.5rem;
+}
+
+.copyright {
+    font-weight: 400;
+    color: #848282;
 }
