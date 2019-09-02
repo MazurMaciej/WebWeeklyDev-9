@@ -350,9 +350,9 @@ div.testymonials p.author {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 }
-
+/* 
 .pinterest {
     background: url('./img/pinterest.jpg');
     height: 40px;
@@ -406,10 +406,25 @@ div.testymonials p.author {
     padding: 4rem 5rem;
     cursor: pointer;
     transition: .3s;
+} */
+
+.pinterest, .twitter, .instagram, .google {
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    color:#848282;
+    cursor: pointer;
+    transition: .3s;
+    text-align: center;
+    line-height: 50px;
+    margin: 1.5rem 4rem 0 4rem;
 }
 
-.pinterest:hover, .twitter:hover, .instagram:hover, .google:hover, .tumble:hover {
-    transform: scale(1.5);
+.pinterest:hover, .twitter:hover, .instagram:hover, .google:hover {
+    background-color: #d07c7c;
+    color: #fff;
+    border-radius: 50%;
+    transform: scale(1.1);
 }
 
 .contactMe {
@@ -421,6 +436,34 @@ div.testymonials p.author {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.contactMe input {
+    border: 1px solid #d07c7c;
+    color: #848282;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    width: 50%;
+}
+
+div.contactMe p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #848282;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.contactMe p.disclaimer {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #848282;
+    width: 80%;
+    text-align: center;
 }
 
 .footer {
