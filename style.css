@@ -392,6 +392,11 @@ div.testymonials p.author {
     width: 50%;
 }
 
+/* .contactMe input:nth-of-type(3) {
+    height: 15%;
+
+} */
+
 div.contactMe p {
     font-size: 1.4rem;
     font-weight: 400;
@@ -405,7 +410,7 @@ div.contactMe p {
 div.contactMeForm {
     display: flex;
     justify-content: space-between;
-    width: 54%;
+    width: 50%;
 }
 
 div.contactMeForm p.disclaimer {
