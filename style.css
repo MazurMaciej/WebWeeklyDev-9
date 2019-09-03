@@ -64,6 +64,7 @@ body {
 .heroFirstLine {
     font-family: 'Playfair Display', serif;
     font-size: 4.8rem;
+    text-align: center;
 }
 
 .heroFirstLineUnderline {
@@ -471,4 +472,16 @@ span.profession {
 .copyright {
     font-weight: 400;
     color: #848282;
+}
+
+@media (max-width: 1160px){
+    .works {
+        display: none;
+    }
+}
+
+@media (max-width: 725px) {
+    nav {
+        display: none;
+    }
 }
